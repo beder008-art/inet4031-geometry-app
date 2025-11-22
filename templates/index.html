@@ -1,0 +1,17 @@
+<html>
+<head><title>Geometry Web App</title></head>
+<body>
+    <h3>INET4031 Geometry Calculator</h3>
+    <h4>Please Select From the Following: </h4>
+
+    <form action="{{ url_for("mainForm")}}" method="post">
+        <!-- Radios share the same name 'shape' so only one can be selected -->
+        <input type="radio" id="sphere" name="shape" value="sphere">
+        <label for="sphere">Sphere</label></br>
+        <input type="radio" id="cylinder" name="shape" value="cylinder">
+        <label for="cylinder">Cylinder</label></br>
+        <p></p>
+        <button type="submit">Make Selection</button>
+    </form>
+</body>
+</html>
