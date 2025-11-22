@@ -116,35 +116,3 @@ A Unit Test is a piece of code that is used to test other code.
 
 For example, the cylinderTest.py code "tests" the cylinder.py code.
 
-Take a look and see if you can understand what's going on.  The Unit Test uses the Python "unittest" module to automatically run the tests.
-
-Some applications have hundreds or thousands (or hundreds of thousands) of unit tests that are ran automatically under automated control processes.
-
-The key to reliable code these days is by having exhaustive unit and integration tests!  Code Coverage!  No human can possibly test all aspects of a system these days.
-
-Run the **cylinder** unit tests like this:
-
-python -m unittest cylinderTest.py
-
-You should see that both tests in the Test file pass.
-
-(What does the GeometryCalcWebTest.py file test?)
-
-## Try It Yourself
-
-Using cylinder.py and cylinderTest.py, finish the functionality for the **sphere.py** file.  Then write a unit test for it: **sphereTest.py**
-
-## Continuous Integration (CI)
-
-In the *.github/workflows* folder is an example YAML file for defining a GitHub action.
-
-This will be discussed in class.
-
-This action can be used to have GitHub automatically run the unit tests whenever code is checked in to the repo.
-
-You will need to duplicate my repo to try this functionality yourself (we will discuss in class).
-
-
-# That's It!
-
-Please take the time to look through the code and understand it.  Better yet, show up to class and participate and learn, and understanding the code will be much easier.
